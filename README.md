@@ -51,11 +51,9 @@ CREATE TABLE students (
 3. Add MySQL Connector/J to your project libraries.
 4. Open the project in NetBeans or any Java IDE.
 5. Update the database password in the code.
-6. Run `StudentForm.java`.
+6. Run `StudentForm.java`
 7. Enter student details and click **SAVE**.
 8. Click **VIEW** to display stored records.
-
----
 
 ## Learning Objectives
 This project was developed to practice:
