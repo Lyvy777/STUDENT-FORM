@@ -1,6 +1,7 @@
 # Simple Student Management System
 
 ## Project Description
+
 This project is a **Student Management System** developed using **Java Swing** and **MySQL**.  
 The system allows users to enter student details and store them in a database, then retrieve and display the stored records in a table interface.
 
@@ -11,6 +12,7 @@ This project demonstrates basic concepts of:
 - Event-driven programming
 
 ## Features
+
 - Add student name and age
 - Save student details into MySQL database
 - Retrieve student records
@@ -18,6 +20,7 @@ This project demonstrates basic concepts of:
 - Simple and user-friendly interface
 
 ## Technologies Used
+
 - Java
 - Java Swing (GUI)
 - JDBC (Java Database Connectivity)
@@ -25,6 +28,7 @@ This project demonstrates basic concepts of:
 - SQL
 
 ## Project Structure
+
 - `Student.java` → Handles database operations and student data
 - `StudentForm.java` → GUI interface using Java Swing
 - SQL Script → Database and table creation
