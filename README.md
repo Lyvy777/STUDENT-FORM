@@ -48,17 +48,13 @@ CREATE TABLE students (
     age INT NOT NULL
 );
 
-## How to Run the Project
+## How to run the project
 
 1. Install Java (JDK 8 or above).
 2. Install MySQL and create the database using the SQL script above.
 3. Add MySQL Connector/J to your project libraries.
 4. Open the project in NetBeans or any Java IDE.
-5. Update the database password in the code:
-
-```java
-String password = "your_password";
-
+5. Update the database password in the code.
 6. Run `StudentForm.java`.
 7. Enter student details and click **SAVE**.
 8. Click **VIEW** to display stored records.
