@@ -26,15 +26,13 @@ public class Student {
         this.age = age;
     }
 
-    // Method to establish database connection
     private Connection connectToDatabase() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/student_db";
         String username = "root"; 
-        String password = "M@chine002"; // Replace with your MySQL password
+        String password = "M@chine002"; 
         return DriverManager.getConnection(url, username, password);
     }
 
-    // Method to save student details to the database
     public void saveStudent() {
         String query = "INSERT INTO students (name, age) VALUES (?, ?)";
         try (Connection connection = connectToDatabase();
@@ -50,7 +48,6 @@ public class Student {
         }
     }
 
-    // Method to retrieve student details from the database
     public void retrieveStudents() {
         String query = "SELECT * FROM students";
         try (Connection connection = connectToDatabase();
@@ -69,7 +66,3 @@ public class Student {
         }
     }
 }
-
-    
-
-
