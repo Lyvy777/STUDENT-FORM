@@ -32,7 +32,7 @@ This project demonstrates basic concepts of:
 ## Database Setup
 Run the following SQL in MySQL:
 
-```
+```sql
 CREATE DATABASE student_db;
 
 USE student_db;
