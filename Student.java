@@ -29,7 +29,7 @@ public class Student {
     private Connection connectToDatabase() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/student_db";
         String username = "root"; 
-        String password = "M@chine002"; 
+        String password = "your_password"; 
         return DriverManager.getConnection(url, username, password);
     }
 
@@ -66,3 +66,4 @@ public class Student {
         }
     }
 }
+
