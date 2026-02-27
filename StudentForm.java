@@ -12,7 +12,7 @@ public class StudentForm extends javax.swing.JFrame {
     private Connection connectToDatabase() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/student_db";
         String username = "root"; 
-        String password = "@Sheriff8876"; 
+        String password = "your_password";
         return DriverManager.getConnection(url, username, password);
     }
 
