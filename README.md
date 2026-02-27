@@ -1,4 +1,4 @@
-# Simple Student Management System (Java + MySQL)
+# Simple Student Management System
 
 ## Project Description
 This project is a **Student Management System** developed using **Java Swing** and **MySQL**.  
@@ -30,6 +30,7 @@ This project demonstrates basic concepts of:
 - SQL Script → Database and table creation
 
 ## Database Setup
+
 Run the following SQL in MySQL:
 
 ```sql
@@ -44,6 +45,7 @@ CREATE TABLE students (
 );
 
 ## How to Run the Project
+
 1. Install Java (JDK 8 or above).
 2. Install MySQL and create the database using the SQL script above.
 3. Add MySQL Connector/J to your project libraries.
@@ -60,6 +62,7 @@ String password = "your_password";
 ---
 
 ## Learning Objectives
+
 This project was developed to practice:
 - Java GUI development
 - Database connectivity using JDBC
@@ -69,4 +72,5 @@ This project was developed to practice:
 ---
 
 ## Author
+
 Lyvia Gekonge
